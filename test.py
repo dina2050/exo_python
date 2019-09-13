@@ -68,8 +68,29 @@ myBool_list = [True, False, True, True, True, False, False]
      
 
 
-maliste = [10,20,3,4,2,7]
-n=10
-for i in range(len(maliste)):
-    if n==maliste[i]:
-        print(True,i)
+# maliste = [10,20,3,4,2,7]
+# n=10
+# for i in range(len(maliste)):
+#     if n==maliste[i]:
+#         print(True,i)
+
+# maliste = [3,5,8,53,42]
+# n=3
+# for i in range(len(maliste)):
+#     if maliste[i]%n==0:
+#         print(str(maliste[i])+"est"+"divisible"+"par"+str(n))
+#     else:
+#         print(str(maliste[i])+"est"+"nondivisible"+"par"+str(n))
+       
+# maliste=[]
+# n=10
+# import random
+# for i in range(n):
+#     maliste.append(random.randint(1,50))
+# print(maliste)
+l1 = [2, 4, 9, 10, 5, 12]
+l2 = []
+for i in range(len(l1)):
+    if l1[i] % 2 == 0:
+        print(l2.append(l1[i]))       #[2,4,10,12]
+        print(l1.remove(l1[i]))       #[9,5]
