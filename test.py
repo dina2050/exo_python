@@ -31,9 +31,9 @@
   #  for j in range(0,10):
    #         print(str(i) +"x"+str(j)+"="+str(i*j))
         
-myInt_list = [10,50,30,45,6,45,855,556,56565,5445,458562,56456,4845] 
-myString_list= ["vie", "belle", "La"]
-myBool_list = [True, False, True, True, True, False, False]
+# myInt_list = [10,50,30,45,6,45,855,556,56565,5445,458562,56456,4845] 
+# myString_list= ["vie", "belle", "La"]
+# myBool_list = [True, False, True, True, True, False, False]
 #print (len (myInt_list))
 #print (len (myString_list))
 #print (len(myBool_list))
@@ -74,6 +74,13 @@ myBool_list = [True, False, True, True, True, False, False]
 #     if n==maliste[i]:
 #         print(True,i)
 
+
+# maliste = [10,20,3,4,2,7]
+# n=10
+# for i in range(len(maliste)):
+#     if n==maliste[i]:
+#         print(True,i)
+
 # maliste = [3,5,8,53,42]
 # n=3
 # for i in range(len(maliste)):
@@ -88,9 +95,66 @@ myBool_list = [True, False, True, True, True, False, False]
 # for i in range(n):
 #     maliste.append(random.randint(1,50))
 # print(maliste)
-l1 = [2, 4, 9, 10, 5, 12]
-l2 = []
-for i in range(len(l1)):
-    if l1[i] % 2 == 0:
-        print(l2.append(l1[i]))       #[2,4,10,12]
-        print(l1.remove(l1[i]))       #[9,5]
+# l1 = [2, 4, 9, 10, 5, 12]
+# l2 = []
+# for i in range(len(l1)):
+#     if l1[i] % 2 == 0:
+#         print(l2.append(l1[i]))       #[2,4,10,12]
+#         print(l1.remove(l1[i]))       #[9,5]
+
+
+# Цель тестового задания
+# Определить возможную динамику самообучения кандидата. А так же глубину понимания кода, реализующего тестовое задание.
+
+# Задание
+# Написать тестовое web-приложение по управлению электронной библиотекой:
+
+# 1. Редактирование (доступно авторизованному пользователю при наличии аутентификации):
+
+# Управление списком книг: добавить / удалить / редактировать книгу.
+# Управление списком авторов: добавить / удалить / редактировать автора.
+# Запись о книге содержит следующие данные: ID, Название.
+# Запись об авторе содержит следующие данные: ID, Имя.
+# Свзязь между книгами и авторами — многие ко многим.
+# 2. Поиск книг по названию либо автору (доступно анонимному пользователю при наличии аутентификации).
+
+# 3. Аутентификации и авторизация (по желанию кандидата).
+
+# Технологии, которые должны быть задействованы:
+
+# Flask
+# SQLAlchemy (Declarative)
+# SQLite (встроенный в приложение)
+# Jinja2 Templates
+# WTForms
+# jQuery (желательно, но возможно использование альтернативных решений)
+# Список может быть расширен по усмотрению кандидата, но с обязательным использованием технологий, перечисленных выше.
+
+# Дополнительные требования
+# Список дополнительных требований следующий:
+
+# 1. Код проекта должен быть доступен на сервисе github.org или bitbucket.org.
+
+# 2. Проект должен содержать SQL-скрипты для развертывания базы данных и наполнения ее тестовыми данными.
+
+# 3. Пользовательские данные должны валидироваться перед сохранением в БД.
+
+# Дополнительные знания
+# Дополнительные знания, необходимые при защите проекта:
+
+# HTTP
+# WSGI
+# SQL, Transactions, Transaction Isolation Levels
+# SQLAlchemy
+# Уязвимости веб-сайтов
+# User Experience 
+from typing import List, Any
+
+
+def all_the_same(elements: List[Any]) -> bool:
+   List=[1,2,1]
+   for i in range (len(List)):
+       if List[0]==List[i]:
+            return True
+       if List[0]!=List[i]:
+           return False
