@@ -74,13 +74,6 @@
 #     if n==maliste[i]:
 #         print(True,i)
 
-
-# maliste = [10,20,3,4,2,7]
-# n=10
-# for i in range(len(maliste)):
-#     if n==maliste[i]:
-#         print(True,i)
-
 # maliste = [3,5,8,53,42]
 # n=3
 # for i in range(len(maliste)):
@@ -103,58 +96,58 @@
 #         print(l1.remove(l1[i]))       #[9,5]
 
 
-# Цель тестового задания
-# Определить возможную динамику самообучения кандидата. А так же глубину понимания кода, реализующего тестовое задание.
-
-# Задание
-# Написать тестовое web-приложение по управлению электронной библиотекой:
-
-# 1. Редактирование (доступно авторизованному пользователю при наличии аутентификации):
-
-# Управление списком книг: добавить / удалить / редактировать книгу.
-# Управление списком авторов: добавить / удалить / редактировать автора.
-# Запись о книге содержит следующие данные: ID, Название.
-# Запись об авторе содержит следующие данные: ID, Имя.
-# Свзязь между книгами и авторами — многие ко многим.
-# 2. Поиск книг по названию либо автору (доступно анонимному пользователю при наличии аутентификации).
-
-# 3. Аутентификации и авторизация (по желанию кандидата).
-
-# Технологии, которые должны быть задействованы:
-
-# Flask
-# SQLAlchemy (Declarative)
-# SQLite (встроенный в приложение)
-# Jinja2 Templates
-# WTForms
-# jQuery (желательно, но возможно использование альтернативных решений)
-# Список может быть расширен по усмотрению кандидата, но с обязательным использованием технологий, перечисленных выше.
-
-# Дополнительные требования
-# Список дополнительных требований следующий:
-
-# 1. Код проекта должен быть доступен на сервисе github.org или bitbucket.org.
-
-# 2. Проект должен содержать SQL-скрипты для развертывания базы данных и наполнения ее тестовыми данными.
-
-# 3. Пользовательские данные должны валидироваться перед сохранением в БД.
-
-# Дополнительные знания
-# Дополнительные знания, необходимые при защите проекта:
-
-# HTTP
-# WSGI
-# SQL, Transactions, Transaction Isolation Levels
-# SQLAlchemy
-# Уязвимости веб-сайтов
-# User Experience 
-from typing import List, Any
+# n = "exercise"
+# print(len(n))
 
 
-def all_the_same(elements: List[Any]) -> bool:
-   List=[1,2,1]
-   for i in range (len(List)):
-       if List[0]==List[i]:
-            return True
-       if List[0]!=List[i]:
-           return False
+# n="exercise"
+# n[6]=='c'
+# print(n[6])
+
+
+# n="exercise"
+# maliste = ['e' ,'x', 'e', 'r', 'c', 'i', 's', 'e']
+# maliste[6]='c'
+
+# print(maliste)
+
+# n="exercise"
+# n[0][]==str('c')
+# print(n)
+
+# n='exercise'
+# x= list(n)
+# x[0]=="b"
+# print(x)
+
+# n="radar"
+# n=list(n)
+# for i in range (len(n)):
+#     if n[i]==n[len(n)-i-1]:
+#         i=i+1
+#         print("oui")
+    
+
+
+
+# n="radar"
+# n=list(n)
+# x=""
+# for i in range (len(n)):        
+#     x=i+x
+#     if n==x:
+#         print("yes")
+
+# alpha="abcdefghijklmnopqrstuvwxyz"
+# word="yzf"
+# new_word=""
+# a=3
+# for i in range (len(word)):
+#     the_letter = word[i]
+#     position_in_alpha = alpha.index(the_letter)
+#     new_position_in_alpha = (position_in_alpha + a) % 26
+#     new_word += alpha[new_position_in_alpha]
+# print(new_word)
+        
+        
+        
