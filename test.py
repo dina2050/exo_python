@@ -31,9 +31,9 @@
   #  for j in range(0,10):
    #         print(str(i) +"x"+str(j)+"="+str(i*j))
         
-myInt_list = [10,50,30,45,6,45,855,556,56565,5445,458562,56456,4845] 
-myString_list= ["vie", "belle", "La"]
-myBool_list = [True, False, True, True, True, False, False]
+# myInt_list = [10,50,30,45,6,45,855,556,56565,5445,458562,56456,4845] 
+# myString_list= ["vie", "belle", "La"]
+# myBool_list = [True, False, True, True, True, False, False]
 #print (len (myInt_list))
 #print (len (myString_list))
 #print (len(myBool_list))
@@ -88,9 +88,111 @@ myBool_list = [True, False, True, True, True, False, False]
 # for i in range(n):
 #     maliste.append(random.randint(1,50))
 # print(maliste)
-l1 = [2, 4, 9, 10, 5, 12]
-l2 = []
-for i in range(len(l1)):
-    if l1[i] % 2 == 0:
-        print(l2.append(l1[i]))       #[2,4,10,12]
-        print(l1.remove(l1[i]))       #[9,5]
+# l1 = [2, 4, 9, 10, 5, 12]
+# l2 = []
+# for i in range(len(l1)):
+#     if l1[i] % 2 == 0:
+#         print(l2.append(l1[i]))       #[2,4,10,12]
+#         print(l1.remove(l1[i]))       #[9,5]
+
+
+# n = "exercise"
+# print(len(n))
+
+
+# n="exercise"
+# n[6]=='c'
+# print(n[6])
+
+
+# n="exercise"
+# maliste = ['e' ,'x', 'e', 'r', 'c', 'i', 's', 'e']
+# maliste[6]='c'
+
+# print(maliste)
+
+# n="exercise"
+# n[0][]==str('c')
+# print(n)
+
+# n='exercise'
+# x= list(n)
+# x[0]=="b"
+# print(x)
+
+# n="radar"
+# n=list(n)
+# for i in range (len(n)):
+#     if n[i]==n[len(n)-i-1]:
+#         i=i+1
+#         print("oui")
+    
+
+
+
+# n="radar"
+# n=list(n)
+# x=""
+# for i in range (len(n)):        
+#     x=i+x
+#     if n==x:
+#         print("yes")
+
+# alpha="abcdefghijklmnopqrstuvwxyz"
+# word="yzf"
+# new_word=""
+# a=3
+# for i in range (len(word)):
+#     the_letter = word[i]
+#     position_in_alpha = alpha.index(the_letter)
+#     new_position_in_alpha = (position_in_alpha + a) % 26
+#     new_word += alpha[new_position_in_alpha]
+# print(new_word)
+        
+# r = int(input ())
+# h = int(input())
+# pi=3.14
+# V = ""
+# V=int(h*r*r*pi)*1/3
+# print(V)
+# sum = 0
+# a = int(input("enter a number:"))
+# cpt = 0
+# b=0
+# while a!=0:
+#     sum += a
+#     cpt=cpt+1
+#     if a>100:
+#         b=b+1
+#     a = int(input("enter a number:"))
+
+# print(sum)
+# print(cpt)
+# print(b)
+
+# n = int(input())
+# if n % 2 == 0:
+#     print("pair")
+# else:
+#     print("impair")
+
+# n = int(input())
+# cpt = 0
+# if n % 2 == 0:
+#     while n % 2 == 0:
+#         n = n / 2
+#         cpt = cpt + 1
+#     print(cpt)
+# else:
+#     print("votre chiffre n'est pas divisible par 2")
+import random
+bla = random.randint(1,100)
+num = int(input())
+while num != bla:
+    if num > bla:
+        print("trop grand")
+    elif num < bla:
+        print("trop petit")
+    num = int(input())
+    
+
