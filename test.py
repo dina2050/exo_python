@@ -185,14 +185,44 @@
 #     print(cpt)
 # else:
 #     print("votre chiffre n'est pas divisible par 2")
-import random
-bla = random.randint(1,100)
-num = int(input())
-while num != bla:
-    if num > bla:
-        print("trop grand")
-    elif num < bla:
-        print("trop petit")
-    num = int(input())
-    
+# import random
+# bla = random.randint(1,100)
+# num = int(input())
+# while num != bla:
+#     if num > bla:
+#         print("trop grand")
+#     elif num < bla:
+#         print("trop petit")
+#     num = int(input())
 
+# maliste = [10,15,20,8,15]
+# sum = 0
+# max_element = maliste[0]
+# min_element = maliste[0]
+# for i in range (len(maliste)):
+#     if maliste[i]>max_element:
+#         max_element = maliste[i]
+#     elif  maliste[i]< min_element:
+#         min_element =maliste[i]
+#     sum = sum + maliste[i]
+# print(max_element)
+# print(min_element)
+# print(sum)
+
+# maliste = []
+# n = 10
+# import random
+# for i in range(n):
+#     maliste.append(random.randint(0,500))
+# for i in range(n):
+#     for j in range(n):
+#         if maliste[j]  == maliste[i] and i != j:
+#             print("identique")
+
+# import random
+# L = [1, 4, 5, 3, 7, 12, 4]
+# for i in range(int(len(L)/2)):
+#   temp = L[i]
+#   L[i] = L[len(L)-i - 1]
+#   L[len(L)-i - 1] = temp
+# print(L)
