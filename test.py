@@ -149,6 +149,7 @@
 #     new_word += alpha[new_position_in_alpha]
 # print(new_word)
         
+<<<<<<< HEAD
 # r = int(input ())
 # h = int(input())
 # pi=3.14
@@ -226,3 +227,7 @@
 #   L[i] = L[len(L)-i - 1]
 #   L[len(L)-i - 1] = temp
 # print(L)
+=======
+        
+        
+>>>>>>> 0961985bdfe6a82c0f1405dafeeb97fe1c5fc480
